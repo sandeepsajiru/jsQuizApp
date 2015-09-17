@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+
+</head>
+
+<body>
+<div class="col-md-1  col-sm-4 searchBlock">
+
+                    <button class="searchBtn" type="button" id="searchBtn" ng-click="">Search</button>
+
+                </div>
+
+
+<tr  ng-repeat= "data in recommendatnList| filter:searchd"  >
+                        <td><a href="#/viewPrvdDtlPage/{{data.providerId}}" class="openLink">{{data.providerTin}}</a></td>
+                        <td>{{data.providerFullLastName}}</td>
+                        <td>{{data.providerFirstName}}</td>
+                        <td>{{data.providerPracticeName}}</td>
+                        <td>{{data.prvdAdrCityNm}}</td>
+                        <td>{{data.prvdAdrStCd}}</td>
+                        <td>{{data.prvdAdrXpndZipCd}}</td>
+                        <td>{{data.measure}}</td>
+                        <td>{{data.grade}}</td>
+                        <td>{{data.measurePaid}}</td>
+                        <td>{{data.totalPaid}}</td>
+                        <td>{{data.noOfLettrsAnyMeasure}}</td>
+                        <td>{{data.noOfLettrsRecommMeasure}}</td>
+                        <td>{{data.currClaimAnyMeasure}}</td>
+                        <td>{{data.currClaimCurrRecomm}}</td>
+                        <td class="interventTblecol"><input type="checkbox" ng-checked="data.letter" ng-model="data.letter"></td>
+                        <td class="interventTblecol"><input type="checkbox" ng-checked="data.mcr" ng-model="data.mcr"></td>
+                        <td class="interventTblecol"><input type="checkbox" ng-checked="data.fcr" ng-model="data.fcr"></td>
+                        <td class="interventTblecol"><input type="checkbox" ng-checked="data.siu" ng-model="data.siu"></td>
+                        <td class="interventTblecol"><input type="checkbox" ng-checked="data.removeClaimRvw" ng-model="data.removeClaimRvw" ></td>
+                        <td class="interventTblecol"><input type="checkbox" ng-checked="data.flag" ng-model="data.flag"></td>
+
+        </tr>
+        
+        
+</body>
+</html>

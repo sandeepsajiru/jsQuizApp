@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Detail Page</title>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>  
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+<script type="text/javascript" src="jquery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	$(".accordion h3:first").addClass("active");
+	$(".accordion p:not(:first)").hide();
+
+	$(".accordion h3").click(function(){
+		$(this).next("p").slideToggle("slow")
+		.siblings("p:visible").slideUp("slow");
+		$(this).toggleClass("active");
+		$(this).siblings("h3").removeClass("active");
+	});
+
+});
+</script>
+
+
+
+          
+
+<style type="text/css">
+body {
+	margin: 10px auto;
+	width: 100%;
+	font: 75%/120% Arial, Helvetica, sans-serif;
+}
+.accordion {
+	width: 100%;
+	float:right;
+	border-bottom: solid 1px #c4c4c4;
+}
+.accordion h3 {
+	background: #e9e7e7 url(images/arrow-square.gif) no-repeat right -51px;
+	padding: 7px 15px;
+	margin: 0;
+	font: bold 120%/100% Arial, Helvetica, sans-serif;
+	border: solid 1px #c4c4c4;
+	border-bottom: none;
+	cursor: pointer;
+}
+.accordion h3:hover {
+	background-color: #e3e2e2;
+}
+.accordion h3.active {
+	background-position: right 5px;
+}
+.accordion p {
+	background: #f7f7f7;
+	margin: 0;
+	padding: 10px 15px 20px;
+	border-left: solid 1px #c4c4c4;
+	border-right: solid 1px #c4c4c4;
+}
+body,td,th {
+	font-size: 16px;
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
+
+</head>
+
+<body>
+<div ng-app="myApp" ng-controller="customersCtrl"> 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://www.google.co.in/#q=kendriya+vihar+hyderabad+indira+nagar">K.V.Phase-II</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li></li>
+        <li></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html"><span class="glyphicon glyphicon-user"></span> Logout</a></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<form class="navbar-form navbar-left" role="search">
+    <div class="form-group">
+        <input type="text" class="form-control" ng-model="flatNumberEntered" placeholder="Search" size="200" maxlength="200" width="50 cm">
+    </div>
+    <button type="submit" class="btn btn-default" ng-click="getFlatDetails()">Submit</button>
+</form>
+<div class="container-fluid" >
+<div class="accordion">
+	
+    <h3>FLAT DETAILS    </h3>
+	<p>Registration Number :
+      <input type="text" name="textfield3" id="textfield3" value="{{flat.regNum}}"/><br /><br />
+    Flat Number :
+    <select name="select1" id="select1" value="{{flat.flatNum}}">
+    <option>select</option>
+     <option>1</option>
+     <option>2</option>
+     <option>3</option>
+      <option>4</option>
+       <option>5</option>
+        <option>6</option>
+         <option>7</option>
+          <option>8</option>
+           <option>9</option>
+            <option>10</option>
+            <option>11</option>
+             <option>12</option>
+              <option>13</option>
+               <option>14</option>
+                <option>15</option>
+                 <option>16</option>
+                
+    </select>
+      <br />
+      <br />
+      Block Number :
+  <select name="select2" id="select2" value="{{flat.blockNum}}">
+   <option>select</option>
+   <option>A</option>
+    <option>B</option>
+     <option>C</option>
+      <option>D</option>
+       <option>E</option>
+        <option>F</option>
+  </select><br /><br />
+    Tax Number :
+  <input type="text" name="textfield" id="textfield" value="{{flat.taxNum}}"/><br/><br />
+    Meter Number :
+  <input type="text" name="textfield2" id="textfield2" value="{{flat.meterNum}}"/><br /><br />
+    Membership Fee Paid :
+      <input type="radio" name="radio" id="radio" value="radio" />
+      <label for="radio">Yes
+        <input type="radio" name="radio2" id="radio2" value="radio2" />
+        No</label><br /> <br />
+	</p>
+    
+
+    
+	<h3>OWNER DETAILS</h3>
+	<p>Name of Owner :
+      <input type="text" name="textfield4" id="textfield4" /><br /><br />
+E-Mail Id :
+  <input type="email" name="email" id="email" /><br /><br />
+  Phone / Mobile :
+	  <input type="text" name="textfield8" id="textfield8" /><br /><br />
+Permanent Address Of Owner :
+  <input type="text" name="textfield5" id="textfield5" /><br /><br />
+ Current Address of Owner :
+      <input type="text" name="textfield6" id="textfield6" /><br /><br />
+	</p>
+	<h3>TENANT DETAILS</h3>
+	<p>Name :
+      <input type="text" name="textfield7" id="textfield7" /><br /><br />
+Phone / Mobile :
+<input type="text" name="textfield9" id="textfield9" /><br /><br />
+E-Mail Id :
+<input type="email" name="email2" id="email2" /><br /><br />
+Occupation :
+<select name="select3" id="select3">
+</select>
+	</p>
+	<h3>MONTHLY STATUS</h3>
+	<p>JAN      FEB MAR APR MAY JUN JUL  AUG SEP OCT NOV DEC</p>
+    
+
+</div>
+</div>
+</div>
+
+  <script>
+var app = angular.module('myApp', []);
+app.controller('customersCtrl', function($scope, $http) {
+
+ // TODO:  Backend Call for Flat Data
+ // Get the Data and Show in the page
+ 
+ $scope.getFlatDetails = function(){
+  alert($scope.flatNumberEntered);
+  var x = Math.floor((Math.random() * 10) + 1);
+  if(x%2==0){
+  $scope.flat =  {
+    "regNum" : "1241044",
+    "flatNum" : "2",
+    "blockNum" : "A",
+    "taxNum" : "5467328",
+	"meterNum" : "22"
+  };
+  }
+  else{
+  $scope.flat =  {
+     "regNum" : "154637",
+    "flatNum" : "1",
+    "blockNum" : "B",
+    "taxNum" : "5467325",
+	"meterNum" : "31"
+  };
+  }
+  }
+
+});
+</script>
+
+</body>
+</html>

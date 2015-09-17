@@ -1,0 +1,116 @@
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>  
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+<script type="text/javascript" src="jquery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	$(".accordion h3:first").addClass("active");
+	$(".accordion p:not(:first)").hide();
+
+	$(".accordion h3").click(function(){
+		$(this).next("p").slideToggle("slow")
+		.siblings("p:visible").slideUp("slow");
+		$(this).toggleClass("active");
+		$(this).siblings("h3").removeClass("active");
+	});
+
+});
+</script>
+
+<style type="text/css">
+body {
+	margin: 10px auto;
+	width: 570px;
+	font: 75%/120% Arial, Helvetica, sans-serif;
+}
+.accordion {
+	width: 480px;
+	border-bottom: solid 1px #c4c4c4;
+}
+.accordion h3 {
+	background: #e9e7e7 url(images/arrow-square.gif) no-repeat right -51px;
+	padding: 7px 15px;
+	margin: 0;
+	font: bold 120%/100% Arial, Helvetica, sans-serif;
+	border: solid 1px #c4c4c4;
+	border-bottom: none;
+	cursor: pointer;
+}
+.accordion h3:hover {
+	background-color: #e3e2e2;
+}
+.accordion h3.active {
+	background-position: right 5px;
+}
+.accordion p {
+	background: #f7f7f7;
+	margin: 0;
+	padding: 10px 15px 20px;
+	border-left: solid 1px #c4c4c4;
+	border-right: solid 1px #c4c4c4;
+}
+body,td,th {
+	font-size: 16px;
+}
+</style>
+
+
+<body bgcolor="#87A4F1" >
+
+<div class="accordion">
+	
+    <h3>FLAT DETAILS</h3>
+	<p>Registration Number :
+      <input type="text" name="textfield3" id="textfield3" /><br /><br />
+    Flat Number :
+      <select name="select" id="select">
+      </select><br /><br />
+      Block Number :
+  <select name="select2" id="select2">
+  </select><br /><br />
+    Tax Number :
+  <input type="text" name="textfield" id="textfield" /><br/><br />
+    Meter Number :
+  <input type="text" name="textfield2" id="textfield2" /><br /><br />
+    Membership Fee Paid :
+      <input type="radio" name="radio" id="radio" value="radio" />
+      <label for="radio">Yes
+        <input type="radio" name="radio2" id="radio2" value="radio2" />
+        No</label>
+  </p>
+    <p>.</p>
+	<h3>OWNER DETAILS</h3>
+	<p>Name of Owner :
+      <input type="text" name="textfield4" id="textfield4" /><br /><br />
+E-Mail Id :
+  <input type="email" name="email" id="email" /><br /><br />
+  Phone / Mobile :
+	  <input type="text" name="textfield8" id="textfield8" /><br /><br />
+Permanent Address Of Owner :
+  <input type="text" name="textfield5" id="textfield5" /><br /><br />
+ Current Address of Owner :
+      <input type="text" name="textfield6" id="textfield6" /><br /><br />
+  </p>
+    <p></p>
+	<h3>TENANT DETAILS</h3>
+	<p>Name :
+      <input type="text" name="textfield7" id="textfield7" /><br /><br />
+Phone / Mobile :
+<input type="text" name="textfield9" id="textfield9" /><br /><br />
+E-Mail Id :
+<input type="email" name="email2" id="email2" /><br /><br />
+Occupation :
+<select name="select3" id="select3">
+</select>
+    </p>
+	<h3>MONTHLY STATUS</h3>
+	<p>JAN      FEB MAR APR MAY JUN JUL  AUG SEP OCT NOV DEC</p>
+	
+</div>
+
+      
