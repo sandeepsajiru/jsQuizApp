@@ -1,0 +1,35 @@
+DASHBOARD
+==========
+Search
+Get Dues Details
+Collect Payments
+
+SEARCH and FLAT DETAILS
+========================
+1.  Option to Add a Tenant or Owner to Flat.
+2.  Flat Details Displayed.
+3.  Edit Flat Details.
+4.  Search for a Flat Details.
+5.  Dues Details for a Flat -  And Status - RED, GREEN, YELLOW.
+
+DUES DETAILS
+=============
+6.  Pending Dues Page - Table of All Flat Numbers, Tenent Names [Email/Mobile] and Status
+7.  Filtering option - Only Green, Only Red, All, Only Yellow.
+8.  Select and Send Email - Reminder Email. [Email Template should be stored in DB].
+9.  Printing option for the list of defaulters - PDF.
+
+COLLECT PAYMENTS
+================
+Flat Number
+Amount
+Mode of Payment - Cash, Cheque
+Remarks
+Collected By
+Collected Date
+Paid By
+
+
+
+
+
