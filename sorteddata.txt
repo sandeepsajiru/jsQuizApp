@@ -1,0 +1,50 @@
+1) You can search a word document for #A. Formatting#B. Special Characters#C. Phrases#D. All of the above#
+2) When you display your document in full screen view ...#A. You cannot use the menu or shortcut menu commands#B. You see the previous page and next page buttons#C. You add selection break to your document.#D. The title bar, status bar, menu bar, scroll bars, taskbar and toolbars are not display.#
+3) What keystroke combination selects the entire document?#A. Ctrl+A#B. Alt+F8#C. Shift+Ctrl+A#D. Alt+A#
+4) To save an existing document in a new file with a different location you#A. Save As#B. Save#C. Close#D. All of the above#
+5) Which of the following is not an editing view?#A. Online layout view #B. Full screen view#C. Format view#D. Page layout view#
+6) Which key deletes text before, or to the left of the insert point?#A. Delete#B. Backspace#C. Page Down#D. Page Up#
+7) The use of smart cut and past option....#A. Inserts a special symbols at the end of each document#B. Copy text in a document without using clipboard#C. Adds or deletes space as needed when pasting text#D. All of the above#
+8) Right-clicking something in Word...#A. Deletes the object#B. Nothing - the right mouse button is there for left handed people#C. Opens a shortcut menu listing everything you can do to the object #D. Selects the object#
+9) How can you apply format of one text into other text?#A. Using copy and paste#B. Using style#C. Using format painter#D. All of the above#
+10) You can moved and copy text ..#A. Within a word document#B. Between office application#C. Between word document#D. All of the above#
+11) Which of the following options is not an option in the print dialog box?#A. Print selected pages#B. Print selected text#C. Set the paper orientation#D. Collate copies#
+12) What is the fastest way to select a single word?#A. Move the insertion point to the beginning of the word and hold down the shift key#B. Double click the word#C. Click the select word wizard button on the tool-bar#D. None of the above#
+13) Auto text entries #A. Can be deleted#B. Can be edited#C. Are saved with the normal template #D. All of the above#
+14) What key can you press to get help in any windows-based program?#A. Scroll lock#B. F1#C. Esc#D. F12#
+15) To insert page break press ..#A. Shift + Ctrl + Enter#B. Alt + Enter#C. Shift + Enter#D. Ctrl + Enter#
+16) The spike ....#A. Allow you to combine text from several documents and then inserts all the text into one documents at one time#B. Allows you to edit auto text entries #C. Allows you to format auto text entries #D. All of the above#
+17) You can decrease your document by one page by using the ...#A. Shrink to fit button#B. Fit to one page button#C. Magnifier button #D. Reduce by one page button#
+18) What color are grammar errors?#A. Yellow#B. Red#C. Green#D. Blue#
+19) When you create an auto text entry #A. You can save it with the current template#B. You should keep the name short#C. You must assign it a unique name#D. All of the above#
+20) The auto complete feature #A. Presents a tip box with contents you can insert by presenting the enter key#B. Checks the style of the documents#C. Checks the readability of the document#D. Checks the spelling in the document#
+1. DBMS is a collection of ………….. that enables user to create and maintain a database.#A) Keys#B) Translators#C) Program#D) Language Activity#
+2. In a relational schema, each tuple is divided into fields called #A) Relations#B) Domains#C) Queries#D) All of the above#
+3. In an ER model, ……………. is described in the database by storing its data.#A) Entity#B) Attribute#C) Relationship#D) Notation#
+4. DFD stands for#A) Data Flow Document#B) Data File Diagram#C) Data Flow Diagram#D) Non of the above#
+5. A top-to-bottom relationship among the items in a database is established by a #A) Hierarchical schema#B) Network schema#C) Relational Schema#D) All of the above#
+6. ……………… table store information about database or about the system.#A) SQL#B) Nested#C) System#D) None of these#
+7. …………..defines the structure of a relation which consists of a fixed set of attribute-domain pairs.#A) Instance #B) Schema#c) Program#D) Super Key#
+8. ……………… clause is an additional filter that is applied to the result.#A) Select#B) Group-by#C) Having#D) Order by#
+9. A logical schema #A) is the entire database#B) is a standard way of organizing information into accessible parts.#C) Describes how data is actually stored on disk.#D) All of the above#
+10. ………………… is a full form of SQL.#A) Standard query language#B) Sequential query language#C) Structured query language#D) Server side query language#
+11) A relational database developer refers to a record as #A. a criteria#B. a relation#C. a tuple#D. an attribute#
+12) .......... keyword is used to find the number of values in a column.#A. TOTAL#B. COUNT#C. ADD#D. SUM#
+13) An advantage of the database management approach is #A. data is dependent on programs#B. data redundancy increases#C. data is integrated and can be accessed by multiple programs#D. none of the above#
+14) The collection of information stored in a database at a particular moment is called as ......#A. schema#B. instance of the database#C. data domain#D. independence#
+15) Data independence means#A. data is defined separately and not included in programs.#B. programs are not dependent on the physical attributes of data #C. programs are not dependent on the logical attributes of data #D. both B and C #
+16) A ......... is used to define overall design of the database#A. schema#B. application program#C. data definition language#D. code#
+17) Key to represent relationship between tables is called#A. primary key#B. secondary key#C. foreign key#D. none of the above#
+18) Grant and revoke are ....... statements.#A. DDL#B. TCL #C. DCL#D. DML#
+19) DBMS helps achieve#A. Data independence #B. Centralized control of data#C. Neither A nor B#D. Both A and B #
+20) .......... command can be used to modify a column in a table#A. alter#B. update#C. set#D. create#
+1. Which if the following is/are the levels of implementation of data structure#A) Abstract level#B) Application level#C) Implementation level#D) All of the above#
+2. A binary search tree whose left subtree and right subtree differ in hight by at most 1 unit is called ……#A) AVL tree#B) Red-black tree#C) Lemma tree#D) None of the above#
+3. ……………….. level is where the model becomes compatible executable code#A) Abstract level#B) Application level#C) Implementation level#D) All of the above#
+4. Stack is also called as#A) Last in first out#B) First in last out#C) Last in last out#D) First in first out#
+5. Which of the following is true about the characteristics of abstract data types?#A) True, False#B) False, True#C) True, True#D) False, False#
+6. …………… is not the component of data structure.#A) Operations#B) Storage Structures#C) Algorithms#D) None of above#
+7. Which of the following is not the part of ADT description?#A) Data#B) Operations#C) Both of the above#D) None of the above#
+8. Inserting an item into the stack when stack is not full is called …………. Operation and deletion of item form the stack, when stack is not empty is called ………..operation.#A) push, pop#B) pop, push#C) insert, delete#D) delete, insert#
+9. ……………. Is a pile in which items are added at one end and removed from the other.#A) Stack#B) Queue#C) List#D) None of the above#
+10. ………… is very useful in situation when data have to stored and then retrieved in reverse order.#A) Stack#B) Queue#C) List#D) Link list#

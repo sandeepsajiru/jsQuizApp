@@ -1,0 +1,10 @@
+1.  Clone Git Code.
+2.  Change to Cloned Directory
+3.  npm install
+4.  Install MongoDB and NodeJs
+5.  Add to Path (if not there)
+6.  Run MongoImport
+	mongoimport /d quiz /c quizquestions /type csv /file C:\Users\Sandy\Desktop\jsQuizApp\sorteddata.csv --headerline
+7.  npm install -g nodemon
+8.  nodemon
+9.  Accesss http://localhost:8081
